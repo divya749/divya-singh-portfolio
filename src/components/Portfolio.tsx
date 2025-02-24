@@ -14,10 +14,11 @@ const Portfolio = () => {
             {/* Profile Picture */}
             <div className="w-48 h-48 mt-12 rounded-full overflow-hidden bg-stone-800 flex-shrink-0">
                 <Image
-                src="/image.png"
+                src="./image.png"
                 alt="Profile"
                 width={192}
                 height={192}
+                unoptimized={true} // Prevents Next.js optimization issues
                 className="w-48 h-48 mt-12 rounded-full object-cover"
                 />
 

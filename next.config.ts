@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Prevents Next.js from optimizing images (needed for GitHub Pages)
   },
-  basePath: "/divya-singh-portfolio", // Sets correct base path for static files
+  basePath: process.env.NODE_ENV === 'production' ? '/divya-singh-portfolio' : '', // Sets correct base path for static files
   assetPrefix: "/divya-singh-portfolio", // Ensures correct asset loading
 };
 

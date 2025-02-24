@@ -12,14 +12,14 @@ const Portfolio = () => {
         <div className="container mx-auto max-w-5xl">
           <div className="flex flex-col md:flex-row gap-12 items-start">
             {/* Profile Picture */}
-            <div className="w-48 h-48 mt-12 rounded-full overflow-hidden bg-stone-800 flex-shrink-0">
+            <div className="w-48 h-54 mt-1 rounded-full overflow-hidden bg-stone-800 flex-shrink-0">
                 <Image
-                src="./image.png"
+                src="/image.png"
                 alt="Profile"
                 width={192}
-                height={192}
+                height={250}
                 unoptimized={true} // Prevents Next.js optimization issues
-                className="w-48 h-48 mt-12 rounded-full object-cover"
+                className="w-48 h-54 object-cover"
                 />
 
             </div>
@@ -62,7 +62,7 @@ const Portfolio = () => {
                 </li>
                 <li>
                     <p className="text-stone-600 leading-relaxed text-justify">
-                    Tested a client Middleware solution using Postman, developing JSLT transformation scripts and managing defects through JIRA and Elastic monitoring.
+                    Tested a Middleware solution using Postman, developing JSLT transformation scripts and managing defects through JIRA and Elastic monitoring.
                     </p>
                 </li>
                 <li>
@@ -90,11 +90,11 @@ const Portfolio = () => {
             <h2 className="text-2xl font-light mb-12 text-stone-900">Selected Projects</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-                { title: "E-commerce Website", description: "A website showcasing digital products it sells on Gumroad", techStack: "React.js, Tailwind CSS, Node.js", github: "https://github.com/user/ecommerce" },
+                { title: "E-commerce Website", description: "A website showcasing digital products it sells on Gumroad", techStack: "React.js, Tailwind CSS", github: "https://github.com/user/ecommerce" },
                 { title: "AI Chatbot", description: "An intelligent chatbot using Groq API", techStack: "Python, TensorFlow", github: "https://github.com/user/chatbot" },
                 { title: "Employee Resignation Prediction", description: "Predicting employee attrition using ML models", techStack: "Python, Scikit-learn", github: "https://github.com/user/resignation-prediction" },
                 { title: "Saliency Prediction", description: "Predicting focus areas in 360-degree media", techStack: "Python, Keras", github: "https://github.com/user/saliency" },
-                { title: "Autonomous Car Simulation", description: "Simulating self-autonomous car behavior", techStack: "ROS, Python, Keras, Deep Learning", github: "https://github.com/user/autonomous-car" },
+                { title: "Autonomous Car Simulation", description: "Simulating self-autonomous car behavior", techStack: "Python, Keras, Deep Learning", github: "https://github.com/user/autonomous-car" },
                 { title: "Audify", description: "A song recognition app", techStack: "Python, Tensorflow, Audio Processing", github: "https://github.com/user/audify" }
             ].map((project) => (
                 <div key={project.title} className="bg-white p-8 rounded-lg shadow-md h-full flex flex-col justify-between">
@@ -117,7 +117,7 @@ const Portfolio = () => {
             <div className="grid md:grid-cols-2 gap-16">
             <div>
                 <h2 className="text-2xl font-light mb-8 text-stone-900">Skills & Technologies</h2>
-                <p className="text-stone-600 text-justify">AI Applications | Machine Learning | Deep Learning | Java Web Development | Multimedia Processing | Workday Integrations | Interpersonal Communication | Teamwork</p>
+                <p className="text-stone-600 text-justify">AI Applications | Machine Learning | Deep Learning | Java Web Development | Computer Vision | Multimedia Processing | Workday Integrations | Interpersonal Communication | Teamwork</p>
                 <h2 className="text-2xl font-light mt-8 mb-4 text-stone-900">Programming Languages</h2>
                 <p className="text-stone-600 text-justify">Java | Python | JavaScript | HTML | CSS | Kotlin </p>
                 <h2 className="text-2xl font-light mt-8 mb-4 text-stone-900">Frameworks and Libraries</h2>

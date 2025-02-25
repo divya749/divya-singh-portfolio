@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   title: 'Divya Singh | Portfolio',
   description: 'Professional Portfolio showcasing my work and experience',
   icons: {
-    icon: '/icon.svg',
+    icon: './icon.svg',
   },
 }
 

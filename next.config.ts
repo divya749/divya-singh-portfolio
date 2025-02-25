@@ -1,3 +1,4 @@
+
 import { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
@@ -6,7 +7,7 @@ const nextConfig: NextConfig = {
     unoptimized: true, // Prevents Next.js from optimizing images (needed for GitHub Pages)
   },
   basePath: process.env.NODE_ENV === 'production' ? '/divya-singh-portfolio' : '', // Sets correct base path for static files
-  assetPrefix: "/divya-singh-portfolio", // Ensures correct asset loading
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/divya-singh-portfolio/' : '', // Ensures correct asset loading
 };
 
 export default nextConfig;

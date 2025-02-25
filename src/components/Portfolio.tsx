@@ -14,7 +14,7 @@ const Portfolio = () => {
             {/* Profile Picture */}
             <div className="w-48 h-54 mt-1 rounded-full overflow-hidden bg-stone-800 flex-shrink-0">
                 <Image
-                src="/image.png"
+                src="./image.png"
                 alt="Profile"
                 width={192}
                 height={250}

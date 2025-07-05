@@ -34,7 +34,7 @@ const Portfolio = () => {
               </h2>
               <div className="max-w-2xl">
                 <p className="text-stone-300 leading-relaxed">
-                I am an Application Developer with 2+ years of experience specializing in AI technologies and enterprise-level Web applications. 
+                I am an Application Developer with 2.5+ years of experience specializing in AI technologies and enterprise-level Web applications. 
                 I have helped deliver robust Java applications and integrated complex systems using development tools and frameworks.
                 I have worked on AI-driven projects with IBM watsonx.ai and also tackled Workday Integrations to deliver automation solutions and seamless system Integrations. 
 
@@ -90,12 +90,14 @@ const Portfolio = () => {
             <h2 className="text-2xl font-light mb-12 text-stone-900">Selected Projects</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-                { title: "E-commerce Website", description: "A website showcasing digital products it sells on Gumroad", techStack: "React.js, Tailwind CSS", github: "https://github.com/user/ecommerce" },
-                { title: "AI Chatbot", description: "An intelligent chatbot using Groq API", techStack: "Python, TensorFlow", github: "https://github.com/user/chatbot" },
-                { title: "Employee Resignation Prediction", description: "Predicting employee attrition using ML models", techStack: "Python, Scikit-learn", github: "https://github.com/user/resignation-prediction" },
-                { title: "Saliency Prediction", description: "Predicting focus areas in 360-degree media", techStack: "Python, Keras", github: "https://github.com/user/saliency" },
-                { title: "Autonomous Car Simulation", description: "Simulating self-autonomous car behavior", techStack: "Python, Keras, Deep Learning", github: "https://github.com/user/autonomous-car" },
-                { title: "Audify", description: "A song recognition app", techStack: "Python, Tensorflow, Audio Processing", github: "https://github.com/user/audify" }
+                { title: "E-commerce Website", description: "A website showcasing digital products it sells on Gumroad", techStack: "React.js, Tailwind CSS", github: "https://github.com/divya749/reachdashop" },
+                { title: "Face Detection", description: "Detecting Frontal Face using OpenCV", techStack: "Python, OpenCV", github: "https://github.com/divya749/Face-Detection-with-OpenCV" },
+                { title: "Hand Tracking System", description: "Enabling Hand Tracking using OpenCV", techStack: "Python, OpenCV", github: "https://github.com/divya749/Hand-Tracking-System" },
+               /* { title: "AI Chatbot", description: "An intelligent chatbot using Groq API", techStack: "Python, TensorFlow", github: "https://github.com/user/chatbot" },
+                { title: "Employee Resignation Prediction", description: "Predicting employee attrition using ML models", techStack: "Python, Scikit-learn", github: "https://github.com/user/resignation-prediction" },*/
+                { title: "Saliency Prediction", description: "Predicting focus areas in 360-degree media", techStack: "Python, Keras", github: "https://github.com/divya749/SaliencyPrediction" },
+                { title: "Autonomous Car Simulation", description: "Simulating self-autonomous car behavior", techStack: "Python, Keras, Deep Learning", github: "https://github.com/0xhrsh/Assisted-Driving" },
+                { title: "Audify", description: "A song recognition app", techStack: "Python, Tensorflow, Audio Processing", github: "https://github.com/LezendarySandwich/Audify" }
             ].map((project) => (
                 <div key={project.title} className="bg-white p-8 rounded-lg shadow-md h-full flex flex-col justify-between">
                 <div>

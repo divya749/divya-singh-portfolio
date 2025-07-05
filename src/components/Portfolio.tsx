@@ -57,17 +57,17 @@ const Portfolio = () => {
                 <ul className="list-disc space-y-4 ml-4">
                 <li>
                     <p className="text-stone-600 leading-relaxed text-justify">
+                    Leveraged IBM watsonx.ai and Llama 3 models for text generation, RAG, and sentiment analysis, while automating HR processes through Watson Orchestrate.
+                    </p>
+                </li>
+                <li>
+                    <p className="text-stone-600 leading-relaxed text-justify">
                     Engineered enterprise web applications using Java, Spring framework, and React.js, integrating RESTful APIs and implementing responsive UI with Bootstrap and Tailwind-CSS.
                     </p>
                 </li>
                 <li>
                     <p className="text-stone-600 leading-relaxed text-justify">
                     Tested a Middleware solution using Postman, developing JSLT transformation scripts and managing defects through JIRA and Elastic monitoring.
-                    </p>
-                </li>
-                <li>
-                    <p className="text-stone-600 leading-relaxed text-justify">
-                    Leveraged IBM watsonx.ai and Llama 3 models for text generation, RAG, and sentiment analysis, while automating HR processes through Watson Orchestrate.
                     </p>
                 </li>
                 <li>
